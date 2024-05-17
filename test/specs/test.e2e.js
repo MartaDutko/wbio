@@ -47,8 +47,8 @@ describe('Test -> https://cloud.google.com/', () => {
 
         await driver.quit();
     });
-    it('should fail and take a screenshot', async () => {
-        await browser.url('https://example.com');
-        expect(false).toBe(true); // Це завжди призведе до помилки
-    });
+    // it('should fail and take a screenshot', async () => {
+    //     await browser.url('https://example.com');
+    //     expect(false).toBe(true); // Це завжди призведе до помилки
+    // });
 })
